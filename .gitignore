@@ -32,4 +32,4 @@ htmlcov/
 *.pkl
 *.joblib
 
-# Course data: train.csv is tracked via Git LFS — do not add *.csv here
+# data/train.csv is Git LFS — do not add a blanket *.csv ignore here
