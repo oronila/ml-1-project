@@ -1,35 +1,7 @@
-# Python
+.venv/
+.env
 __pycache__/
 *.py[cod]
-*$py.class
-.Python
-*.so
-.venv/
-venv/
-env/
-.env
-*.egg-info/
-.eggs/
-dist/
-build/
-*.egg
-
-# Jupyter
 .ipynb_checkpoints/
-
-# IDE / OS
-.idea/
-.vscode/
-*.swp
 .DS_Store
-
-# Tests / coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Local ML artifacts (adjust if you commit models)
-*.pkl
-*.joblib
-
-# data/train.csv is Git LFS — do not add a blanket *.csv ignore here
+utils/
