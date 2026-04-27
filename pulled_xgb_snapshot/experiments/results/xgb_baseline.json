@@ -1,0 +1,31 @@
+{
+  "name": "xgb_baseline",
+  "params": {
+    "eta": 0.05,
+    "max_depth": 8,
+    "min_child_weight": 20,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0
+  },
+  "te_cols": [
+    "SPECIES_ID",
+    "OPID",
+    "AIRPORT_ID",
+    "STATE",
+    "AMA",
+    "AMO"
+  ],
+  "n_features": 67,
+  "train_auc": 0.95575932296692,
+  "val_auc": 0.9187196954348396,
+  "val_ap": 0.5657639020795046,
+  "overfit_gap": 0.037039627532080455,
+  "oof_f1": 0.5401698069906525,
+  "oof_thr_f1": 0.27005162835121155,
+  "thr_rate7": 0.24458946287631989,
+  "thr_rate8": 0.20973549783229828,
+  "base_rate": 0.06356900559284845,
+  "elapsed_s": 277.3029909133911
+}
