@@ -5,3 +5,11 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 utils/
+
+# Local ML artifacts and generated outputs
+models/
+*.joblib
+*.log
+*.npy
+*.csv
+*.tsv

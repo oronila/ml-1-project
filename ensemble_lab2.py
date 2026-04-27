@@ -94,6 +94,7 @@ def main():
         "cat_seed": "cat_seedavg_submission",
         "cat_deep": "cat_deep_submission",
         "cat_grand": "cat_grand_submission",
+        "cat_pseudo": "cat_pseudo_submission",
         "ada": "adaboost_v2_submission",
     }
     base_paths = {k: v for k, v in base_paths.items() if Path(v + ".oof.npy").exists()}
